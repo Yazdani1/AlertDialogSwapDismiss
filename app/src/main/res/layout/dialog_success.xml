@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="400dp"
+    android:layout_gravity="center"
+    cardview:cardCornerRadius="4dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/d"
+            />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="Success!"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="20dp"
+            />
+        
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/btnok"
+            android:text="OK"
+            android:layout_gravity="center"
+            android:gravity="center"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_height="wrap_content"
+            android:background="#FFE4E012"
+            />
+        
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
